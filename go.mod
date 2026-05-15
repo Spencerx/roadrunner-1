@@ -51,7 +51,7 @@ require (
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
-	github.com/temporalio/roadrunner-temporal/v5 v5.10.0
+	github.com/temporalio/roadrunner-temporal/v5 v5.11.0
 )
 
 exclude (
