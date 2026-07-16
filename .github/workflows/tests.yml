@@ -13,7 +13,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v7
       - name: Set up Go
-        uses: actions/setup-go@v6 # action page: <https://github.com/actions/setup-go>
+        uses: actions/setup-go@v7 # action page: <https://github.com/actions/setup-go>
         with:
           go-version: stable
       - name: Run linter
@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           go-version: stable
       - name: Check out code
@@ -58,7 +58,7 @@ jobs:
         os: [linux, darwin, windows, freebsd]
     steps:
       - name: Set up Go
-        uses: actions/setup-go@v6 # action page: <https://github.com/actions/setup-go>
+        uses: actions/setup-go@v7 # action page: <https://github.com/actions/setup-go>
         with:
           go-version: stable
       - name: Check out code
